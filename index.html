@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미로 탈출 게임</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">미로 탈출 게임</h1>
+        <br>
+        <div class="game-description">
+            <p>🔹 목표 : 제한된 시간 내에 미로를 탈출하세요!</p>
+            <p>🔹 조작법 : 방향키(⬆️⬇️⬅️➡️)를 사용하여 이동하세요.</p>
+            <p>🔹 레벨업 : 미로를 탈출하면 점수를 획득합니다.</p>
+            <p>🔹 시간 제한 : 시간 안에 도착하지 못하면 게임 오버!</p>
+        </div>
+        <br>
+        <button id="startButton" class="start-button" onclick="startGame()">게임 시작하기</button>
+    </div>
+
+    <script>
+        function startGame() {
+            window.location.href = "game.html";  // 게임 화면으로 이동
+        }
+    </script>
+</body>
+</html>
+
