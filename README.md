@@ -5,7 +5,7 @@
 <br>
 ***[미로게임하러가기 Click!](https://carpe-horas.github.io/Maze-Escape-Game/)***
 
-![미로 게임 미리보기](images/game.png)
+![미로 게임 미리보기](images/game.gif)
 <br>
 
 ## 사용된 로직 및 알고리즘
